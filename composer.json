@@ -1,28 +1,29 @@
 {
-    "name": "poppy/ext-webhook",
-    "description": "Webhook 机器人SDK",
-    "type": "library",
-    "minimum-stability": "dev",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "duoli",
-            "email": "zhaody901@126.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.4",
-        "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.3|^7.3"
-    },
-    "autoload": {
-        "psr-4": {
-            "Poppy\\Extension\\Webhook\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Poppy\\Extension\\Webhook\\Tests\\": "tests/"
-        }
+  "name": "poppy/ext-webhook",
+  "description": "Webhook 机器人SDK",
+  "type": "library",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "duoli",
+      "email": "zhaody901@126.com"
     }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3|^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Poppy\\Extension\\Webhook\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Poppy\\Extension\\Webhook\\Tests\\": "tests/"
+    }
+  },
+  "version": "4.3.0"
 }
